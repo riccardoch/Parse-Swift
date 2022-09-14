@@ -31,7 +31,7 @@ public protocol ParseSession: ParseObject {
 
     /// Refers to the `ParseInstallation` where the
     /// session logged in from.
-    var installationId: String { get }
+    var installationId: String? { get }
 
     /// Approximate date when this session will automatically
     /// expire.
